@@ -18,7 +18,7 @@ const Aside = () => {
     
     return(
         <>
-        <aside className="bg-transparent border-r sticky top-0 h-screen overflow-y-hidden p-8">
+        <aside className="bg-transparent border-r fixed h-screen overflow-y-hidden p-8">
             {links.map(link => (
                 <Link 
                 key={link.href}

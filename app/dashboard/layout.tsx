@@ -8,7 +8,9 @@ export default function RootLayout({
     return (
       <div className="flex">
         <Aside />
-        {children}
+        <main className="flex-1 ml-36">
+          {children}
+        </main>
       </div>
     );
   }
